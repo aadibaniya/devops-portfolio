@@ -1,0 +1,75 @@
+# Node.js (if you have any Node projects)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if using scripts)
+__pycache__/
+*.py[cod]
+*.pyo
+
+# General OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Shell history files (DON'T commit these!)
+.bash_history
+.zsh_history
+
+# Environment files (secrets, configs)
+.env
+.env.*
+
+# Docker
+**/docker-compose.override.yml
+**/docker-compose.local.yml
+.docker/
+.dockerignore
+
+# Kubernetes
+*.kubeconfig
+*.yaml.backup
+
+# Terraform
+*.tfstate
+*.tfstate.*
+*.terraform/
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+terraform.tfvars
+*.terraform.lock.hcl
+
+# Ansible (if using)
+*.retry
+
+# VSCode editor settings
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (IntelliJ, PyCharm, etc.)
+.idea/
+
+# Backup & temp files
+*~
+*.swp
+*.bak
+*.tmp
+
+# Coverage or test output
+coverage/
+*.lcov
+
+# Monitoring/logging tools
+grafana.db
+
+# CI/CD outputs
+build/
+dist/
+
