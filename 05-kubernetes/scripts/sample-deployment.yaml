@@ -1,19 +1,19 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: apps/v1   # Kubernetes API version
+kind: Deployment      # We are creating a Deployment resource
 metadata:
-  name: sample-deployment
+  name: sample-deployment   # Name of the deployment
 spec:
-  replicas: 1
+  replicas: 1               # Run 1 pod
   selector:
     matchLabels:
-      app: sample
+      app: sample           # Label to select pods
   template:
     metadata:
       labels:
-        app: sample
+        app: sample         # Label assigned to the pod
     spec:
       containers:
-      - name: sample-container
-        image: nginx
+      - name: sample-container    # Name of the container
+        image: nginx              # Use the nginx image
         ports:
-        - containerPort: 80
+        - containerPort: 80       # Expose port 80
