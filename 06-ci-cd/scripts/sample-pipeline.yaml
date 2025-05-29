@@ -1,0 +1,11 @@
+name: Sample CI Pipeline
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Run sample command
+      run: echo "Hello from GitHub Actions!"
