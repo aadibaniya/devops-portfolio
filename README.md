@@ -1,7 +1,7 @@
 # devops-portfolio
 My DevOps Learning Journey and Hands-On Projects
 
-# 🚀 DevOps Portfolio by [Your Name]
+# 🚀 DevOps Portfolio by Aaditya Baniya
 
 Welcome to my DevOps Portfolio — a structured collection of everything I’m learning and building as I become a DevOps Engineer.
 
